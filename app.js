@@ -1,11 +1,14 @@
-const menuBtn = document.querySelector('.menu-btn');
-let menuOpen = false;
-menuBtn.addEventListener('click', () => {
-  if(!menuOpen) {
-    menuBtn.classList.add('open');
-    menuOpen = true;
-  } else {
-    menuBtn.classList.remove('open');
-    menuOpen = false;
-  }
-});
+// function for burger-menu to tap and open nav bar
+(function($){
+  $(".menu-icon").on("click", function(){
+    $(this).toggleClass("open");
+    $(".container").toggleClass("nav-open");
+    $("nav ul li").toggleClass("animate");
+  });
+  
+})(jQuery);
+
+
+
+			
+			
