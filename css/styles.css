@@ -75,13 +75,51 @@ margin-top: 4px;
   letter-spacing: 4px;
   color: #fff;
 }
-.name p {
+.name span {
   text-align: center;
-  font-size: 14px;
+  font-size: 25px;
   margin: 10px 0 15px;
   letter-spacing: 11px;
-  color: #ccc;
+  color: gray;
 }
+/* random word css */
+.random-word {
+  text-transform: uppercase;
+  width: auto;
+  display: inline-block;
+  
+/*   transition: all 1.25s; */
+  animation: slidedown 4s infinite;
+  -webkit-animation: slidedown 4s infinite;
+  -moz-animation: slidedown 4s infinite;
+}
+
+@keyframes slidedown {
+  0% {
+    opacity: 50;
+  }
+  
+  5% {
+    opacity: 0;
+    transform: translateY(0.5em);
+  }
+  
+  7% {
+    transform: translateY(-1em);
+  }
+  
+  10% {
+    opacity: 0;
+  }
+  
+  20% {
+    transform: translateY(0);
+    opacity: 100;
+  }
+}
+
+/* random word ends */
+
 .container.banner-drop.nav-open{
 margin-top: 8em;
 -webkit-transition: all 0.3s ease;
@@ -1093,7 +1131,7 @@ p.pop {
 .name h2 {
   font-size: 31px;
 }
-.name p {
+.name span {
   font-size: 13px;
   margin: 4px 0 13px;
   letter-spacing: 9px;
@@ -1244,7 +1282,7 @@ span.about-top-w3 {
 .name h2 {
   font-size: 27px;
 }
-.name p {
+.name span {
   margin: 3px 0 10px;
   letter-spacing: 8px;
 }
@@ -1474,7 +1512,7 @@ p.pop {
 h5.sub {
   font-size: 15px;
 }
-.name p {
+.name span {
   margin: 1px 0 8px;
   letter-spacing: 5px;
   font-size: 12px;
@@ -1541,7 +1579,7 @@ p.pop {
 .name h2 {
   font-size: 21px;
 }
-.name p {
+.name span {
   letter-spacing: 4px;
 }
 ul.top-links li a i.fa {
@@ -1629,7 +1667,7 @@ p.pop {
 }
 }
 @media(max-width:414px){
-.name p {
+.name span {
   letter-spacing: 3px;
 }
 .name h2 {
@@ -1740,7 +1778,7 @@ p.pop {
 .name h2 {
   font-size: 19px;
 }
-.name p {
+.name span {
   letter-spacing: 2px;
   margin: 1px 0 6px;
 }
@@ -1785,7 +1823,7 @@ p.pop {
 .name h2 {
   font-size: 18px;
 }
-.name p {
+.name span {
   letter-spacing: 2px;
   font-size: 11px;
 }
