@@ -40,7 +40,7 @@ transition:.5s ease-in-out;
 -ms-transition:.5s ease-in-out;
 }
 .banner{
-background:url(../images/banner.jpg) no-repeat 0px 0px;
+background:url(../images/banner2.png) no-repeat 0px 0px;
 background-size:cover;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -51,7 +51,7 @@ min-height:680px;
   margin-bottom: 10.6em
 }
 .banner1{
-background:url(../images/banner.jpg) no-repeat 0px 0px;
+background:url(../images/banner2.png) no-repeat 0px 0px;
 background-size:cover;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -981,12 +981,13 @@ filter: alpha(opacity=0);
 .banner {
   min-height: 630px;
   margin-bottom: 10.9em;
-      background: url(../images/banner.jpg) no-repeat -62px 0px;
+      background: url(../images/banner2.png) no-repeat -62px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
+  
 }
 .name h2 {
   font-size: 37px;
