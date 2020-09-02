@@ -1222,7 +1222,7 @@ p.pop {
 .name h2 {
   font-size: 31px;
 }
-.name p {
+.name span {
   font-size: 13px;
   margin: 4px 0 13px;
   letter-spacing: 9px;
@@ -1399,7 +1399,7 @@ span.about-top-w3 {
 .name h2 {
   font-size: 27px;
 }
-.name p {
+.name span {
   margin: 3px 0 10px;
   letter-spacing: 8px;
 }
@@ -1669,7 +1669,7 @@ p.pop {
 h5.sub {
   font-size: 15px;
 }
-.name p {
+.name span {
   margin: 1px 0 8px;
   letter-spacing: 5px;
   font-size: 12px;
@@ -1744,7 +1744,7 @@ p.pop {
 .name h2 {
   font-size: 21px;
 }
-.name p {
+.name span {
   letter-spacing: 4px;
 }
 ul.top-links li a i.fa {
@@ -1842,7 +1842,7 @@ p.pop {
 }
 }
 @media(max-width:414px){
-.name p {
+.name span {
   letter-spacing: 3px;
 }
 .name h2 {
@@ -1969,7 +1969,7 @@ p.pop {
 .name h2 {
   font-size: 19px;
 }
-.name p {
+.name span {
   letter-spacing: 2px;
   margin: 1px 0 6px;
 }
@@ -2018,7 +2018,7 @@ ul.address li ul.address-text li {
 .name h2 {
   font-size: 18px;
 }
-.name p {
+.name span {
   letter-spacing: 2px;
   font-size: 11px;
 }
